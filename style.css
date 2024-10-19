@@ -132,6 +132,7 @@
         width: 10%;
         margin-top: 5%;
         margin-bottom: 3%;
+        margin-right: 1%;
 
     }
 
@@ -144,10 +145,34 @@
 
     .texto-instagram {
         margin-top: 7%;
-        margin-left: 2%;
+        font-size: 110%;
         color: white;
         text-decoration: none;
 
+    }
+
+    .logo-linkedin {
+        width: 6%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+
+
+
+    }
+
+    .container-img-linkedin {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+
+    }
+
+    .texto-linkedin {
+        margin-top: 7%;
+        margin-left: 3%;
+        color: white;
+        text-decoration: none;
+        font-size: 110%;
     }
 
     .contenedor-img-producto {
@@ -232,8 +257,8 @@
         margin-right: 1%;
         display: grid;
         grid-template-areas: "img-carrito nombre-producto"
-                            "precio-carrito cantidad-carrito" 
-                            " boton-compra boton-compra";
+            "precio-carrito cantidad-carrito"
+            " boton-compra boton-compra";
     }
 
     .img-carrito {
@@ -282,16 +307,244 @@
         margin-left: 35%;
     }
 
+    .productos-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-top: 3%;
+        grid-template-areas: "img-productos img-productos2 "
+            "titulo-enlace-productos titulo-enlace-productos2"
+            "img-productos3 img-productos4"
+            "titulo-enlace-productos3 titulo-enlace-productos4"
+            "img-productos5 img-productos6"
+            "titulo-enlace-productos5 titulo-enlace-productos6"
+            "img-productos7 img-productos8"
+            "titulo-enlace-productos7 titulo-enlace-productos8"
+        ;
+    }
+
+
+    .img-prductos {
+        grid-area: img-productos;
+        width: 55%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-bottom: 2%;
+
+    }
+
+    .titulo-enlace-productos {
+        grid-area: titulo-enlace-productos;
+        background-color: rgb(88, 88, 88);
+        padding: 1%;
+        height: 150%;
+        width: 68%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+
+    }
+
+    .listado-productos {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .img-prductos2 {
+        grid-area: img-productos2;
+        width: 55%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .titulo-enlace-productos2 {
+        grid-area: titulo-enlace-productos2;
+        background-color: rgb(88, 88, 88);
+        padding: 1%;
+        height: 150%;
+        width: 68%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+
+    .listado-productos2 {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .img-prductos3 {
+        grid-area: img-productos3;
+        width: 55%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .titulo-enlace-productos3 {
+        grid-area: titulo-enlace-productos3;
+        background-color: rgb(88, 88, 88);
+        padding: 1%;
+        height: 150%;
+        width: 68%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+
+    .listado-productos3 {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .img-prductos4 {
+        grid-area: img-productos4;
+        width: 55%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .titulo-enlace-productos4 {
+        grid-area: titulo-enlace-productos4;
+        background-color: rgb(88, 88, 88);
+        padding: 1%;
+        height: 150%;
+        width: 68%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+
+    .listado-productos4 {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .img-prductos5 {
+        grid-area: img-productos5;
+        width: 55%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .titulo-enlace-productos5 {
+        grid-area: titulo-enlace-productos5;
+        background-color: rgb(88, 88, 88);
+        padding: 1%;
+        height: 150%;
+        width: 68%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+
+    .listado-productos5 {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .img-prductos6 {
+        grid-area: img-productos6;
+        width: 55%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .titulo-enlace-productos6 {
+        grid-area: titulo-enlace-productos6;
+        background-color: rgb(88, 88, 88);
+        padding: 1%;
+        height: 150%;
+        width: 68%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+
+    .listado-productos6 {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .img-prductos7 {
+        grid-area: img-productos7;
+        width: 55%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .titulo-enlace-productos7 {
+        grid-area: titulo-enlace-productos7;
+        background-color: rgb(88, 88, 88);
+        padding: 1%;
+        height: 150%;
+        width: 68%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+
+    .listado-productos7 {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+
+    .img-prductos8 {
+        grid-area: img-productos8;
+        width: 55%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .titulo-enlace-productos8 {
+        grid-area: titulo-enlace-productos8;
+        background-color: rgb(88, 88, 88);
+        padding: 1%;
+        height: 150%;
+        width: 68%;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-bottom: 20%;
+    }
+
+    .listado-productos8 {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
 
 
 }
-
 
 @media (min-width: 1200px) {
 
 
     .logo-inicio {
-        width: 30%;
+        width: 40%;
+        margin: 0%;
+        margin-left: 5%;
 
     }
 
@@ -305,8 +558,8 @@
 
     .logo-carrito-inicio {
         width: 8%;
-        margin-top: 1%;
-        margin-left: 88%;
+        margin-top: 3%;
+        margin-left: 85%;
     }
 
     .nav-inicio {
@@ -445,6 +698,28 @@
 
     }
 
+    .logo-linkedin {
+        width: 6%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+
+    }
+
+    .container-img-linkedin {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+
+    }
+
+    .texto-linkedin {
+        margin-top: 7%;
+        margin-left: 3%;
+        color: white;
+        text-decoration: none;
+        font-size: 110%;
+    }
+
     .contenedor-img-producto {
         display: flex;
         justify-content: center;
@@ -577,30 +852,30 @@
         margin-top: 15%;
     }
 
-    .productos-container{
+    .productos-container {
         display: grid;
         justify-content: center;
         align-items: center;
         justify-items: center;
         margin-top: 3%;
-        grid-template-areas:  "img-productos img-productos2 img-productos3 img-productos4"
-                                "titulo-enlace-productos titulo-enlace-productos2 titulo-enlace-productos3 titulo-enlace-productos4"
-                                "img-productos5 img-productos6 img-productos7 img-productos8 "
-                                "titulo-enlace-productos5 titulo-enlace-productos6 titulo-enlace-productos7 titulo-enlace-productos8"
-                                    ;
+        grid-template-areas: "img-productos img-productos2 img-productos3 img-productos4"
+            "titulo-enlace-productos titulo-enlace-productos2 titulo-enlace-productos3 titulo-enlace-productos4"
+            "img-productos5 img-productos6 img-productos7 img-productos8 "
+            "titulo-enlace-productos5 titulo-enlace-productos6 titulo-enlace-productos7 titulo-enlace-productos8"
+        ;
     }
 
 
-    .img-prductos{
+    .img-prductos {
         grid-area: img-productos;
         width: 55%;
         margin-top: 2%;
         padding: 1%;
         margin-bottom: 2%;
-        
+
     }
 
-    .titulo-enlace-productos{
+    .titulo-enlace-productos {
         grid-area: titulo-enlace-productos;
         background-color: rgb(88, 88, 88);
         padding: 1%;
@@ -612,14 +887,14 @@
 
     }
 
-    .listado-productos{
+    .listado-productos {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         margin-bottom: 2%;
     }
 
-    .img-prductos2{
+    .img-prductos2 {
         grid-area: img-productos2;
         width: 55%;
         margin-top: 2%;
@@ -627,7 +902,7 @@
         margin-bottom: 2%;
     }
 
-    .titulo-enlace-productos2{
+    .titulo-enlace-productos2 {
         grid-area: titulo-enlace-productos2;
         background-color: rgb(88, 88, 88);
         padding: 1%;
@@ -638,14 +913,14 @@
         margin-bottom: 20%;
     }
 
-    .listado-productos2{
+    .listado-productos2 {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         margin-bottom: 2%;
     }
 
-    .img-prductos3{
+    .img-prductos3 {
         grid-area: img-productos3;
         width: 55%;
         margin-top: 2%;
@@ -653,7 +928,7 @@
         margin-bottom: 2%;
     }
 
-    .titulo-enlace-productos3{
+    .titulo-enlace-productos3 {
         grid-area: titulo-enlace-productos3;
         background-color: rgb(88, 88, 88);
         padding: 1%;
@@ -664,14 +939,14 @@
         margin-bottom: 20%;
     }
 
-    .listado-productos3{
+    .listado-productos3 {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         margin-bottom: 2%;
     }
 
-    .img-prductos4{
+    .img-prductos4 {
         grid-area: img-productos4;
         width: 55%;
         margin-top: 2%;
@@ -679,7 +954,7 @@
         margin-bottom: 2%;
     }
 
-    .titulo-enlace-productos4{
+    .titulo-enlace-productos4 {
         grid-area: titulo-enlace-productos4;
         background-color: rgb(88, 88, 88);
         padding: 1%;
@@ -690,14 +965,14 @@
         margin-bottom: 20%;
     }
 
-    .listado-productos4{
+    .listado-productos4 {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         margin-bottom: 2%;
     }
 
-    .img-prductos5{
+    .img-prductos5 {
         grid-area: img-productos5;
         width: 55%;
         margin-top: 2%;
@@ -705,7 +980,7 @@
         margin-bottom: 2%;
     }
 
-    .titulo-enlace-productos5{
+    .titulo-enlace-productos5 {
         grid-area: titulo-enlace-productos5;
         background-color: rgb(88, 88, 88);
         padding: 1%;
@@ -716,14 +991,14 @@
         margin-bottom: 20%;
     }
 
-    .listado-productos5{
+    .listado-productos5 {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         margin-bottom: 2%;
     }
 
-    .img-prductos6{
+    .img-prductos6 {
         grid-area: img-productos6;
         width: 55%;
         margin-top: 2%;
@@ -731,7 +1006,7 @@
         margin-bottom: 2%;
     }
 
-    .titulo-enlace-productos6{
+    .titulo-enlace-productos6 {
         grid-area: titulo-enlace-productos6;
         background-color: rgb(88, 88, 88);
         padding: 1%;
@@ -742,14 +1017,14 @@
         margin-bottom: 20%;
     }
 
-    .listado-productos6{
+    .listado-productos6 {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         margin-bottom: 2%;
     }
 
-    .img-prductos7{
+    .img-prductos7 {
         grid-area: img-productos7;
         width: 55%;
         margin-top: 2%;
@@ -757,7 +1032,7 @@
         margin-bottom: 2%;
     }
 
-    .titulo-enlace-productos7{
+    .titulo-enlace-productos7 {
         grid-area: titulo-enlace-productos7;
         background-color: rgb(88, 88, 88);
         padding: 1%;
@@ -768,14 +1043,14 @@
         margin-bottom: 20%;
     }
 
-    .listado-productos7{
+    .listado-productos7 {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         margin-bottom: 2%;
     }
 
-    .img-prductos8{
+    .img-prductos8 {
         grid-area: img-productos8;
         width: 55%;
         margin-top: 2%;
@@ -783,7 +1058,7 @@
         margin-bottom: 2%;
     }
 
-    .titulo-enlace-productos8{
+    .titulo-enlace-productos8 {
         grid-area: titulo-enlace-productos8;
         background-color: rgb(88, 88, 88);
         padding: 1%;
@@ -794,7 +1069,7 @@
         margin-bottom: 20%;
     }
 
-    .listado-productos8{
+    .listado-productos8 {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
