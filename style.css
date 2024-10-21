@@ -6,7 +6,7 @@
 
 
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
 
     .logo-inicio {
         width: 100%;
@@ -325,7 +325,7 @@
     }
 
 
-    .img-prductos {
+    .img-productos {
         grid-area: img-productos;
         width: 55%;
         margin-top: 2%;
@@ -353,7 +353,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos2 {
+    .img-productos2 {
         grid-area: img-productos2;
         width: 55%;
         margin-top: 2%;
@@ -379,7 +379,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos3 {
+    .img-productos3 {
         grid-area: img-productos3;
         width: 55%;
         margin-top: 2%;
@@ -405,7 +405,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos4 {
+    .img-productos4 {
         grid-area: img-productos4;
         width: 55%;
         margin-top: 2%;
@@ -431,7 +431,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos5 {
+    .img-productos5 {
         grid-area: img-productos5;
         width: 55%;
         margin-top: 2%;
@@ -457,7 +457,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos6 {
+    .img-productos6 {
         grid-area: img-productos6;
         width: 55%;
         margin-top: 2%;
@@ -483,7 +483,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos7 {
+    .img-productos7 {
         grid-area: img-productos7;
         width: 55%;
         margin-top: 2%;
@@ -509,7 +509,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos8 {
+    .img-productos8 {
         grid-area: img-productos8;
         width: 55%;
         margin-top: 2%;
@@ -575,7 +575,6 @@
         flex-direction: row;
         justify-content: space-around;
         padding: 0%;
-        height: 50px;
         font-size: 160%;
 
     }
@@ -603,8 +602,7 @@
 
     .listado {
         list-style: none;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin: 1rem auto;
 
     }
 
@@ -856,15 +854,18 @@
         align-items: center;
         justify-items: center;
         margin-top: 3%;
-        grid-template-areas: "img-productos img-productos2 img-productos3 img-productos4"
-            "titulo-enlace-productos titulo-enlace-productos2 titulo-enlace-productos3 titulo-enlace-productos4"
-            "img-productos5 img-productos6 img-productos7 img-productos8 "
-            "titulo-enlace-productos5 titulo-enlace-productos6 titulo-enlace-productos7 titulo-enlace-productos8"
-        ;
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+
+    .item-productos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
 
-    .img-prductos {
+    .img-productos {
         grid-area: img-productos;
         width: 55%;
         margin-top: 2%;
@@ -892,7 +893,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos2 {
+    .img-productos2 {
         grid-area: img-productos2;
         width: 55%;
         margin-top: 2%;
@@ -918,7 +919,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos3 {
+    .img-productos3 {
         grid-area: img-productos3;
         width: 55%;
         margin-top: 2%;
@@ -944,7 +945,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos4 {
+    .img-productos4 {
         grid-area: img-productos4;
         margin: 0%;
         padding: 0%;
@@ -972,7 +973,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos5 {
+    .img-productos5 {
         grid-area: img-productos5;
         width: 55%;
         margin-top: 2%;
@@ -998,7 +999,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos6 {
+    .img-productos6 {
         grid-area: img-productos6;
         width: 55%;
         margin-top: 2%;
@@ -1024,7 +1025,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos7 {
+    .img-productos7 {
         grid-area: img-productos7;
         width: 55%;
         margin-top: 2%;
@@ -1050,7 +1051,7 @@
         margin-bottom: 2%;
     }
 
-    .img-prductos8 {
+    .img-productos8 {
         grid-area: img-productos8;
         width: 55%;
         margin-top: 2%;
