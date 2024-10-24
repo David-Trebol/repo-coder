@@ -6,7 +6,7 @@
 
 
 
-@media (max-width: 480px) {
+@media (min-width: 370px) {
 
     .logo-inicio {
         width: 100%;
@@ -314,6 +314,7 @@
         align-items: center;
         justify-items: center;
         margin-top: 3%;
+        grid-template-columns: 90%;
     }
 
     .item-productos{
@@ -330,6 +331,7 @@
         margin-top: 2%;
         padding: 1%;
         margin-bottom: 2%;
+        max-width: 100%;
 
     }
 
@@ -346,188 +348,6 @@
     }
 
     .listado-productos {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-bottom: 2%;
-    }
-
-    .img-productos2 {
-        grid-area: img-productos2;
-        width: 55%;
-        margin-top: 2%;
-        padding: 1%;
-        margin-bottom: 2%;
-    }
-
-    .titulo-enlace-productos2 {
-        grid-area: titulo-enlace-productos2;
-        background-color: rgb(88, 88, 88);
-        padding: 1%;
-        height: 150%;
-        width: 68%;
-        border-radius: 10px;
-        margin-left: 15%;
-        margin-bottom: 20%;
-    }
-
-    .listado-productos2 {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-bottom: 2%;
-    }
-
-    .img-productos3 {
-        grid-area: img-productos3;
-        width: 55%;
-        margin-top: 2%;
-        padding: 1%;
-        margin-bottom: 2%;
-    }
-
-    .titulo-enlace-productos3 {
-        grid-area: titulo-enlace-productos3;
-        background-color: rgb(88, 88, 88);
-        padding: 1%;
-        height: 150%;
-        width: 68%;
-        border-radius: 10px;
-        margin-left: 15%;
-        margin-bottom: 20%;
-    }
-
-    .listado-productos3 {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-bottom: 2%;
-    }
-
-    .img-productos4 {
-        grid-area: img-productos4;
-        width: 55%;
-        margin-top: 2%;
-        padding: 1%;
-        margin-bottom: 2%;
-    }
-
-    .titulo-enlace-productos4 {
-        grid-area: titulo-enlace-productos4;
-        background-color: rgb(88, 88, 88);
-        padding: 1%;
-        height: 150%;
-        width: 68%;
-        border-radius: 10px;
-        margin-left: 15%;
-        margin-bottom: 20%;
-    }
-
-    .listado-productos4 {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-bottom: 2%;
-    }
-
-    .img-productos5 {
-        grid-area: img-productos5;
-        width: 55%;
-        margin-top: 2%;
-        padding: 1%;
-        margin-bottom: 2%;
-    }
-
-    .titulo-enlace-productos5 {
-        grid-area: titulo-enlace-productos5;
-        background-color: rgb(88, 88, 88);
-        padding: 1%;
-        height: 150%;
-        width: 68%;
-        border-radius: 10px;
-        margin-left: 15%;
-        margin-bottom: 20%;
-    }
-
-    .listado-productos5 {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-bottom: 2%;
-    }
-
-    .img-productos6 {
-        grid-area: img-productos6;
-        width: 55%;
-        margin-top: 2%;
-        padding: 1%;
-        margin-bottom: 2%;
-    }
-
-    .titulo-enlace-productos6 {
-        grid-area: titulo-enlace-productos6;
-        background-color: rgb(88, 88, 88);
-        padding: 1%;
-        height: 150%;
-        width: 68%;
-        border-radius: 10px;
-        margin-left: 15%;
-        margin-bottom: 20%;
-    }
-
-    .listado-productos6 {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-bottom: 2%;
-    }
-
-    .img-productos7 {
-        grid-area: img-productos7;
-        width: 55%;
-        margin-top: 2%;
-        padding: 1%;
-        margin-bottom: 2%;
-    }
-
-    .titulo-enlace-productos7 {
-        grid-area: titulo-enlace-productos7;
-        background-color: rgb(88, 88, 88);
-        padding: 1%;
-        height: 150%;
-        width: 68%;
-        border-radius: 10px;
-        margin-left: 15%;
-        margin-bottom: 20%;
-    }
-
-    .listado-productos7 {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-bottom: 2%;
-    }
-
-    .img-productos8 {
-        grid-area: img-productos8;
-        width: 55%;
-        margin-top: 2%;
-        padding: 1%;
-        margin-bottom: 2%;
-    }
-
-    .titulo-enlace-productos8 {
-        grid-area: titulo-enlace-productos8;
-        background-color: rgb(88, 88, 88);
-        padding: 1%;
-        height: 150%;
-        width: 68%;
-        border-radius: 10px;
-        margin-left: 15%;
-        margin-bottom: 20%;
-    }
-
-    .listado-productos8 {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
