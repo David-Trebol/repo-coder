@@ -253,61 +253,7 @@
         margin-bottom: 5%;
     }
 
-    .contenedor-carrito {
-        border: solid 2px;
-        margin-left: 1%;
-        margin-right: 1%;
-        display: grid;
-        grid-template-areas: "img-carrito nombre-producto"
-            "precio-carrito cantidad-carrito"
-            " boton-compra boton-compra";
-    }
 
-    .img-carrito {
-        width: 50%;
-        grid-area: img-carrito;
-        margin: 20%;
-    }
-
-    .listado-carrito {
-        text-decoration: none;
-
-    }
-
-    .titulo-enlace-producto-carrito {
-        background-color: rgb(88, 88, 88);
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        width: 65%;
-        align-items: center;
-        border-radius: 5px;
-        padding-left: 2%;
-        grid-area: nombre-producto;
-        margin-top: 35%;
-    }
-
-    .boton-compra-carrito {
-        width: 30%;
-        height: 40%;
-        font-size: 110%;
-        grid-area: boton-compra;
-        margin-top: 6%;
-        margin-left: 35%;
-        margin-bottom: 3%;
-    }
-
-    .cantidad-carrito {
-        grid-area: cantidad-carrito;
-        margin-left: 25%;
-        font-size: 130%;
-    }
-
-    .precio-carrito {
-        grid-column: precio-carrito;
-        margin-top: 2%;
-        font-family: 200%;
-        margin-left: 35%;
-    }
 
     .productos-container {
         display: grid;
@@ -621,7 +567,7 @@
 
 @media (min-width: 1200px) {
     .logo-inicio {
-        width: 40%;
+        width: 30%;
         margin: 0%;
         margin-left: 5%;
 
@@ -636,8 +582,8 @@
 
 
     .logo-carrito-inicio {
-        width: 8%;
-        margin-top: 3%;
+        width: 6%;
+        margin: 2% auto;
         margin-left: 85%;
     }
 
@@ -677,6 +623,9 @@
         text-decoration: none;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-columns: 40% 40%; 
+        justify-content: space-around;
 
     }
 
@@ -698,7 +647,7 @@
     }
 
     .img-inicio {
-        width: 25%;
+        width: 45%;
         margin: 2%;
 
     }
@@ -884,57 +833,7 @@
         margin-bottom: 3%;
     }
 
-    .contenedor-carrito {
-        border: solid 2px;
-        margin-left: 1%;
-        margin-right: 1%;
-        display: grid;
-        grid-template-areas: "img-carrito nombre-producto precio-carrito cantidad-carrito boton-compra";
-    }
-
-    .img-carrito {
-        margin: 0%;
-        width: 15%;
-        grid-area: img-carrito;
-        margin-left: 40%;
-    }
-
-    .listado-carrito {
-        text-decoration: none;
-
-    }
-
-    .titulo-enlace-producto-carrito {
-        background-color: rgb(88, 88, 88);
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        width: 65%;
-        align-items: center;
-        border-radius: 5px;
-        padding-left: 2%;
-        grid-area: nombre-producto;
-        margin-top: 6%;
-    }
-
-    .boton-compra-carrito {
-        width: 55%;
-        height: 30%;
-        font-size: 110%;
-        grid-area: boton-compra;
-        margin-top: 15%;
-    }
-
-    .cantidad-carrito {
-        grid-area: cantidad-carrito;
-        margin-top: 24%;
-        font-size: 130%;
-    }
-
-    .precio-carrito {
-        grid-column: precio-carrito;
-        font-family: 130%;
-        margin-top: 22%;
-    }
+    
 
     /* Ajuste grid productos */
 
