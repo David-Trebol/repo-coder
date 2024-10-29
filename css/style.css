@@ -53,7 +53,7 @@
 
     .titulo-pag-principal-texto {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 150%;
+        font-size: 2.7rem;
         margin-top: 5%;
     }
 
@@ -90,13 +90,13 @@
 
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 2%;
-        font-size: 110%;
+        font-size: 1rem;
         margin-bottom: 10%;
         background-color: rgb(88, 88, 88);
         border-radius: 15px;
         color: white;
-        padding: 8px;
-        padding: 8px;
+        padding: 10px;
+        
     }
 
     .footer {
@@ -115,7 +115,7 @@
         color: white;
         text-decoration: none;
         list-style: none;
-        font-size: 130%;
+        font-size: 1.2rem;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 5%;
         margin-top: 15%;
@@ -147,7 +147,7 @@
 
     .texto-instagram {
         margin-top: 7%;
-        font-size: 110%;
+        font-size: 1rem;
         color: white;
         text-decoration: none;
 
@@ -174,7 +174,8 @@
         margin-left: 3%;
         color: white;
         text-decoration: none;
-        font-size: 110%;
+        font-size: 1rem;
+        margin-bottom: 5px;
     }
 
     .contenedor-img-producto {
@@ -286,7 +287,7 @@
         grid-area: titulo-enlace-productos;
         background-color: rgb(88, 88, 88);
         padding: 1%;
-        height: 150%;
+        height: 2.7rem;
         width: 68%;
         border-radius: 10px;
         margin-left: 15%;
@@ -474,7 +475,7 @@
         margin-left: 0%;
         color: white;
         text-decoration: none;
-        font-size: 120%;
+        font-size: 1rem;
 
     }
 
@@ -490,7 +491,7 @@
         margin-left: 3%;
         color: white;
         text-decoration: none;
-        font-size: 110%;
+        font-size: 1rem;
     }
     .listado-img{
         display: flex;
@@ -547,7 +548,7 @@
     
     button[type="submit"] {
         padding: 10px 20px;
-        background-color: #007bff;
+        background-color:rgb(88, 88, 88);
         color: white;
         border: none;
         border-radius: 4px;
@@ -601,7 +602,7 @@
         flex-direction: row;
         justify-content: space-around;
         padding: 0%;
-        font-size: 160%;
+        font-size: 1.5rem;
 
     }
 
@@ -613,7 +614,7 @@
 
     .titulo-pag-principal-texto {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 200%;
+        font-size: 2rem;
         margin-top: 2%;
         margin-bottom: 2%;
     }
@@ -655,13 +656,13 @@
     .titulo-enlace-producto-inicio {
 
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 110%;
+        font-size: 1.5rem;
         margin-bottom: 10%;
         background-color: rgb(88, 88, 88);
         border-radius: 15px;
         color: white;
         margin: 0%;
-        padding: 2px 5px
+        padding: 2px 10px
 
     }
 
@@ -686,12 +687,12 @@
         color: white;
         text-decoration: none;
         list-style: none;
-        font-size: 140%;
+        font-size: 1.4rem;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 5%;
         margin-top: 15%;
-        width: 180%;
-
+        width: auto
+    
     }
 
     .enlace-footer {
@@ -727,7 +728,7 @@
         margin-left: 0%;
         color: white;
         text-decoration: none;
-        font-size: 120%;
+        font-size: 1rem;
 
     }
 
@@ -750,7 +751,8 @@
         margin-left: 3%;
         color: white;
         text-decoration: none;
-        font-size: 110%;
+        font-size: 1rem;
+        margin-bottom: 5px;
     }
 
     .contenedor-img-producto {
@@ -776,7 +778,7 @@
         margin-top: 2%;
         margin-bottom: 1%;
         margin-left: 6%;
-        font-size: 170%;
+        font-size: 2rem;
 
     }
 
@@ -794,7 +796,7 @@
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 3%;
         margin-bottom: 2%;
-        font-size: 150%;
+        font-size: 1.5rem;
 
 
     }
@@ -867,7 +869,7 @@
         grid-area: titulo-enlace-productos;
         background-color: rgb(88, 88, 88);
         padding: 1%;
-        height: 150%;
+        height: 2.7rem;
         width: 68%;
         border-radius: 10px;
         margin-left: 15%;
@@ -887,7 +889,7 @@
         grid-template-columns: 45% 45%;
     }
     .img-inicio-nov{
-        width: 50%;
+        width: 40%;
     }
 
     .listado-img-novedades{
@@ -899,13 +901,17 @@
     .contenedor-politicas{
         border: solid 1px;
         margin: 2%;
+        padding-bottom: 1%;
     }
     .titulo-politicas{
-        margin: 1%;
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 1.2rem;
     }
     .texto-politicas{
-        font-size: 130%;
+        font-size: 1.2rem;
         margin: auto 1%;
+        font-size: 1rem;
     }
 
 
