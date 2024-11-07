@@ -1,0 +1,43 @@
+.registro {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+    .formulario-registro {
+        display: grid;
+        gap: 20px;
+    }
+
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-bottom: 5px;
+}
+
+.campo input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.campo input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(88, 88, 88);
+}

@@ -1,3 +1,4 @@
+@media (min-width: 360px){
 .footer {
     background-color: rgb(88, 88, 88);
     ;
@@ -10,7 +11,8 @@
 
         .enlace-footer {
             list-style: none;
-            margin: 4% 0 0 0;
+            margin: 6% 0 0 0;
+            color: white;
         }
     }
 }
@@ -21,6 +23,9 @@
 }
 
 .container-img-instagram {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
 
     .logo-instagram {
         width: 20%;
@@ -28,8 +33,22 @@
 }
 
 .container-img-linkedin {
+    margin: 2%;
 
     .logo-linkedin {
         width: 15%;
     }
+}
+}
+
+@media (min-width: 1024px){
+    .logo-linkedin {
+        width: 5%;
+        
+        
+    }
+    .logo-instagram {
+        width: 8%;
+    }
+
 }

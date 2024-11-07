@@ -1,0 +1,26 @@
+.listado-novedades{
+    display: grid;
+    justify-content: center;
+   
+    .listado-img-novedades{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .img-inicio-nov{
+            width: 60%;
+        }   
+    
+    }
+
+}
+.titulo-enlace-producto-inicio {
+    margin-top: 2%;
+    font-size: 1rem;
+    margin-bottom: 10%;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    
+}

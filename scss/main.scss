@@ -4,6 +4,12 @@
 // @import "./components/nav";
 
 @use "./base";
-@use "./components/footer";
 @use "./components/header";
 @use "./components/nav";
+@use "./components/main";
+@use "./components/footer";
+@use "./pages/productos";
+@use "./pages/novedades";
+@use "./pages/registrarse";
+@use "./pages/contacto";
+@use "./pages/productos1-8";
