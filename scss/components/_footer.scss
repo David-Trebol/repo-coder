@@ -1,0 +1,35 @@
+.footer {
+    background-color: rgb(88, 88, 88);
+    ;
+
+    .contenedor-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+        .enlace-footer {
+            list-style: none;
+            margin: 4% 0 0 0;
+        }
+    }
+}
+
+.contenedor-footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.container-img-instagram {
+
+    .logo-instagram {
+        width: 20%;
+    }
+}
+
+.container-img-linkedin {
+
+    .logo-linkedin {
+        width: 15%;
+    }
+}
