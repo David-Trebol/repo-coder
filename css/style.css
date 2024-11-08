@@ -111,10 +111,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 0 4% 0;
 }
 .listado-enlaces .listado-img .img-inicio {
   width: 50%;
-  margin: 10% 0 10% 0;
+  margin: 5% 0 0 0;
 }
 
 .enlace-listado {
@@ -130,7 +131,7 @@
   padding: 10px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 730px) {
   .logo-inicio {
     width: 40%;
   }
@@ -143,13 +144,14 @@
     color: white;
   }
   .listado-enlaces .listado-img {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 40% 40%;
     justify-content: center;
     align-items: center;
+    justify-items: center;
   }
   .listado-enlaces .listado-img .img-inicio {
-    width: 20%;
+    width: 55%;
     margin: 5% 0 5% 0;
   }
 }
@@ -397,6 +399,12 @@ button[type=submit] {
     justify-items: center;
     margin-top: 3%;
     grid-template-columns: 20% 20% 20% 20%;
+  }
+  .img-productos :hover {
+    transform: scale(1.3);
+  }
+  .listado-productos {
+    margin: 4% 0 0 0;
   }
 }
 
