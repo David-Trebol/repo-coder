@@ -39,6 +39,19 @@ $box-text-color: #585858;
     }
 }
 
+@media (min-width: 720px) {
+    .productos-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-top: 3%;
+        grid-template-columns: 40% 40%;
+    }
+
+}
+
+
 @media (min-width: 1024px) {
     .productos-container {
         display: grid;

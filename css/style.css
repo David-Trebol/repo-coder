@@ -252,6 +252,16 @@
   margin: 0 0 20% 17%;
 }
 
+@media (min-width: 720px) {
+  .productos-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 3%;
+    grid-template-columns: 40% 40%;
+  }
+}
 @media (min-width: 1024px) {
   .productos-container {
     display: grid;
@@ -442,17 +452,6 @@ button[type=submit] {
   font-size: 95%;
   margin: 0 3% 0 5%;
   padding: 0 4% 0 4%;
-}
-
-@media (min-width: 720px) {
-  .productos-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    margin-top: 3%;
-    grid-template-columns: 40% 40%;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -40,15 +40,3 @@
     padding: 0 4% 0 4%;
 }
 
-@media (min-width: 720px) {
-    .productos-container {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        margin-top: 3%;
-        grid-template-columns: 40% 40%;
-    }
-
-}
-
