@@ -1,3 +1,4 @@
+$box-text-color: #585858;
 
 .productos-container {
     display: grid;
@@ -30,12 +31,35 @@
 
     .titulo-enlace-productos {
         grid-area: titulo-enlace-productos;
-        background-color: rgb(88, 88, 88);
+        background-color: $box-text-color;
         padding: 2%;
         width: 65%;
         border-radius: 10px;
         margin: 0 0 20% 17%;
     }
+}
+
+@media (min-width: 1024px) {
+    .productos-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-top: 3%;
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+    .img-productos{
+        transition: ease-in;
+    }
+
+    .img-productos:hover {
+        transform: scale(1.35);
+    }
+
+    .listado-productos{
+        margin: 4% 0 0 0;
+    }
+
 }
 
 

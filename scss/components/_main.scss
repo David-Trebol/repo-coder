@@ -1,3 +1,7 @@
+@mixin rounded-corners($radius: 15px) {
+    border-radius: $radius;
+  }
+
 .titulo-pag-principal {
     display: flex;
     justify-content: center;
@@ -27,12 +31,12 @@
 .enlace-listado {
     text-decoration: none;
     background-color: rgb(88, 88, 88);
-    border-radius: 15px;
+    @include rounded-corners(15px);
     padding: 0.5%;
 
     .titulo-enlace-producto-inicio1 {
         font-size: 0.8rem;
-        border-radius: 15px;
+        @include rounded-corners(15px);
         color: white;
         padding: 10px;
 
@@ -75,4 +79,21 @@
         width: 7%;
         margin: 2% 6% 0 0;
     }
+
+
+.img-inicio{
+    transition: ease-in;
+}
+
+.img-inicio:hover {
+    transform: scale(1.7) translatex(-60px);
+    transition-duration: 0.3s;
+    
+}
+
+.listado-productos{
+    margin: 4% 0 0 0;
+}
+
+
 }

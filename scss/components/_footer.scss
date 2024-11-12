@@ -11,7 +11,7 @@
 
         .enlace-footer {
             list-style: none;
-            margin: 6% 0 0 0;
+            margin: 8% 0 0 0;
             color: white;
         }
     }
@@ -19,7 +19,7 @@
 
 .contenedor-footer-logo {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .container-img-instagram {
@@ -42,13 +42,23 @@
 }
 
 @media (min-width: 1024px){
-    .logo-linkedin {
-        width: 5%;
-        
-        
+    .container-img-instagram {
+        display: flex;
+        justify-content: flex-end;
+        margin: 2%;
+    
+        .logo-instagram {
+            width: 7%;
+        }
     }
-    .logo-instagram {
-        width: 8%;
+    .container-img-linkedin {
+        margin: 2%;
+    
+        .logo-linkedin {
+            width: 5%;
+        }
     }
+
+
 
 }
