@@ -61,8 +61,11 @@
         margin-top: 3%;
         grid-template-columns: 20% 20% 20% 20%;
     }
+    .img-productos{
+        transition: ease-in;
+    }
 
-    .img-productos :hover {
+    .img-productos:hover {
         transform: scale(1.3);
     }
 
