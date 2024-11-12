@@ -52,25 +52,3 @@
 
 }
 
-@media (min-width: 1024px) {
-    .productos-container {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        margin-top: 3%;
-        grid-template-columns: 20% 20% 20% 20%;
-    }
-    .img-productos{
-        transition: ease-in;
-    }
-
-    .img-productos:hover {
-        transform: scale(1.3);
-    }
-
-    .listado-productos{
-        margin: 4% 0 0 0;
-    }
-
-}

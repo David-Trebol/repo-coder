@@ -5,10 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.body {
-  background-image: linear-gradient(to right, purple, blue);
-}
-
 @media (min-width: 360px) {
   .posicion-logo-inicio {
     display: flex;
@@ -278,6 +274,7 @@
 .listado-novedades {
   display: grid;
   justify-content: center;
+  text-decoration: none;
 }
 .listado-novedades .listado-img-novedades {
   display: flex;
@@ -296,6 +293,10 @@
   border-radius: 15px;
   color: white;
   padding: 10px;
+}
+
+.listado {
+  text-decoration: none;
 }
 
 .registro {
@@ -451,25 +452,6 @@ button[type=submit] {
     justify-items: center;
     margin-top: 3%;
     grid-template-columns: 40% 40%;
-  }
-}
-@media (min-width: 1024px) {
-  .productos-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    margin-top: 3%;
-    grid-template-columns: 20% 20% 20% 20%;
-  }
-  .img-productos {
-    transition: ease-in;
-  }
-  .img-productos:hover {
-    transform: scale(1.3);
-  }
-  .listado-productos {
-    margin: 4% 0 0 0;
   }
 }
 

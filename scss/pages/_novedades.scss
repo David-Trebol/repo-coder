@@ -1,6 +1,7 @@
 .listado-novedades{
     display: grid;
     justify-content: center;
+    text-decoration: none;
    
     .listado-img-novedades{
         display: flex;
@@ -9,7 +10,7 @@
 
         .img-inicio-nov{
             width: 60%;
-        }   
+        }
     
     }
 
@@ -24,3 +25,9 @@
     padding: 10px;
     
 }
+
+.listado{
+    text-decoration: none;
+}
+
+
