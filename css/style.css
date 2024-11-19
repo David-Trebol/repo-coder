@@ -177,6 +177,12 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .footer .contenedor-footer .posicion-texto {
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
   .footer .contenedor-footer .enlace-footer {
     list-style: none;
     margin: 8% 0 0 0;
@@ -190,6 +196,7 @@
     display: flex;
     justify-content: flex-end;
     margin: 2%;
+    padding-left: 1%;
   }
   .container-img-instagram .logo-instagram {
     width: 20%;
@@ -202,13 +209,8 @@
   }
 }
 @media (min-width: 1024px) {
-  .container-img-instagram {
-    display: flex;
-    justify-content: flex-end;
-    margin: 2%;
-  }
-  .container-img-instagram .logo-instagram {
-    width: 7%;
+  .logo-instagram {
+    max-width: 7%;
   }
   .container-img-linkedin {
     margin: 2%;
@@ -275,7 +277,8 @@
     transition: ease-in;
   }
   .img-productos:hover {
-    transform: scale(1.35);
+    transform: scale(1.25);
+    transition-duration: 0.3s;
   }
   .listado-productos {
     margin: 4% 0 0 0;
@@ -421,15 +424,15 @@ button[type=submit] {
   justify-content: center;
 }
 .contenedor-img-producto .img-producto {
-  width: 50%;
-  padding: 2%;
-  margin: 7% 0 0 0;
+  width: 30%;
+  padding: 1%;
+  margin: 3% 0 0 0;
 }
 
 .titulo-producto {
   display: flex;
   justify-content: center;
-  margin: 4% 0 4% 0;
+  margin: 2% 0 2% 0;
   font-size: 1.2rem;
 }
 
@@ -450,7 +453,7 @@ button[type=submit] {
 
 .lista-caracteristicas {
   font-size: 95%;
-  margin: 0 3% 0 5%;
+  margin: 0 3% 2% 5%;
   padding: 0 4% 0 4%;
 }
 

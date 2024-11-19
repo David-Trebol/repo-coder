@@ -1,59 +1,64 @@
-@media (min-width: 360px){
-.footer {
-    background-color: rgb(88, 88, 88);
-    ;
+@media (min-width: 360px) {
+    .footer {
+        background-color: rgb(88, 88, 88);
+        ;
 
-    .contenedor-footer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        .contenedor-footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
 
+            .posicion-texto{
+                padding-left: 2%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
 
-        .enlace-footer {
-            list-style: none;
-            margin: 8% 0 0 0;
-            color: white;
+            .enlace-footer {
+                list-style: none;
+                margin: 8% 0 0 0;
+                color: white;
+            }
         }
     }
-}
 
-.contenedor-footer-logo {
-    display: flex;
-    justify-content: center; 
-}
+    .contenedor-footer-logo {
+        display: flex;
+        justify-content: center;
 
-.container-img-instagram {
-    display: flex;
-    justify-content: flex-end;
-    margin: 2%;
-
-    .logo-instagram {
-        width: 20%;
     }
-}
 
-.container-img-linkedin {
-    margin: 2%;
-
-    .logo-linkedin {
-        width: 15%;
-    }
-}
-}
-
-@media (min-width: 1024px){
     .container-img-instagram {
         display: flex;
         justify-content: flex-end;
         margin: 2%;
-    
+        padding-left: 1%;
+
         .logo-instagram {
-            width: 7%;
+            width: 20%;
         }
     }
+
     .container-img-linkedin {
         margin: 2%;
-    
+
+        .logo-linkedin {
+            width: 15%;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+
+
+    .logo-instagram {
+        max-width: 7%;
+    }
+
+    .container-img-linkedin {
+        margin: 2%;
+
         .logo-linkedin {
             width: 5%;
         }
