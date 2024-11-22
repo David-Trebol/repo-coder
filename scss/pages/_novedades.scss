@@ -1,3 +1,9 @@
+$background-color: rgb(88, 88, 88);
+
+@mixin rounded-corners($radius: 15px) {
+    border-radius: $radius;
+  }
+
 .listado-novedades{
     display: grid;
     justify-content: center;
@@ -19,8 +25,8 @@
     margin-top: 2%;
     font-size: 1rem;
     margin-bottom: 10%;
-    background-color: rgb(88, 88, 88);
-    border-radius: 15px;
+    background-color: $background-color;
+    @include rounded-corners(15px);
     color: white;
     padding: 10px;
     
