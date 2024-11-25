@@ -39,7 +39,7 @@
 }
 @media (min-width: 1024px) {
   .logo-inicio {
-    width: 40%;
+    width: 30%;
   }
   .logo-carrito-inicio {
     width: 9%;
@@ -47,9 +47,6 @@
   }
 }
 @media (min-width: 1200px) {
-  .logo-inicio {
-    width: 35%;
-  }
   .logo-carrito-inicio {
     width: 6%;
     margin: 2% 3% 0 0;
