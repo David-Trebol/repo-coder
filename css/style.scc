@@ -559,31 +559,6 @@ button[type=submit] {
   text-align: center;
 }
 
-.boton-añadir-producto {
-  background-color: rgb(88, 88, 88);
-  color: white;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.3s ease;
-  margin-top: 8px;
-}
-
-.boton-añadir-producto:hover {
-  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
-}
-
-.boton-añadir-producto:active {
-  transform: scale(0.98);
-}
-
-.producto {
-  display: flex;
-  justify-content: center;
-}
-
 .contenedor-carrito {
   max-width: 800px;
   margin: 2rem auto;
@@ -681,4 +656,4 @@ button[type=submit] {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scc.map */
