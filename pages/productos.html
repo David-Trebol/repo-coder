@@ -60,122 +60,141 @@
         </div>
     </section>
 
-    <main class="gallery">
-        <div class="gallery-item">
+
+<!-- Agregar esta sección de filtros justo aquí -->
+<div class="filtros-container">
+    <select id="filtro-marca">
+        <option value="todos">Todas las marcas</option>
+        <option value="hp">HP</option>
+        <option value="lenovo">Lenovo</option>
+        <option value="asus">Asus</option>
+        <option value="msi">MSI</option>
+    </select>
+    
+    <select id="filtro-precio">
+        <option value="todos">Todos los precios</option>
+        <option value="0-800">Menos de 800€</option>
+        <option value="800-1200">800€ - 1200€</option>
+        <option value="1200+">Más de 1200€</option>
+    </select>
+</div>
+
+
+
+    <main class="gallery" id="productos-gallery">
+        <div class="gallery-item" data-marca="lenovo" data-precio="799">
             <a href="../pages/producto1.html"><img src="../img/producto-1.webp" alt="producto 1"></a>
             <div class="overlay">
                 <h3>Lenovo IdeaPad</h3>
                 <p>Gaming 3 15ACH6</p>
+                <p class="precio">799€</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="hp" data-precio="1100">
             <a href="../pages/Producto2.html"><img src="../img/producto-2.webp" alt="producto 2"></a>
             <div class="overlay">
                 <h3>HP Victus</h3>
                 <p>16-R1025NS Intel Core</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="hp" data-precio="1400">
             <a href="../pages/producto3.html"><img src="../img/producto-3.webp" alt="producto 3"></a>
             <div class="overlay">
                 <h3>HP Victus</h3>
                 <p>16-R0007NS Intel Core</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="hp" data-precio="1000">
             <a href="../pages/producto4.html"><img src="../img/producto-4.webp" alt="producto 4"></a>
             <div class="overlay">
                 <h3>HP Victus</h3>
                 <p>15-FA1018NS Intel Core</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="asus" data-precio="900">
             <a href="../pages/producto5.html"><img src="../img/producto-5.webp" alt="producto 5"></a>
             <div class="overlay">
                 <h3>Asus TUF</h3>
                 <p>Gaming A16 TUF607PI</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="asus" data-precio="1800">
             <a href="../pages/producto6.html"><img src="../img/producto-6.webp" alt="producto 6"></a>
             <div class="overlay">
                 <h3>Asus TUF</h3>
                 <p>F15 TUF507ZC4-HN231</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="msi" data-precio="2000">
             <a href="../pages/producto7.html"><img src="../img/producto-7.webp" alt="producto 7"></a>
             <div class="overlay">
                 <h3>MSI Katana</h3>
                 <p>15 i7 RTX 4060 8GB</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="msi" data-precio="1999">
             <a href="../pages/producto8.html"><img src="../img/producto-8.webp" alt="producto 8"></a>
             <div class="overlay">
                 <h3>MSI</h3>
                 <p>GV62 8RD GTX1050ti</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="hp" data-precio="1799">
             <a href="../pages/Producto2.html"><img src="../img/producto-2.webp" alt="producto 2"></a>
             <div class="overlay">
                 <h3>HP Victus</h3>
                 <p>16-R1025NS Intel Core</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="hp" data-precio="1500">
             <a href="../pages/producto4.html"><img src="../img/producto-4.webp" alt="producto 4"></a>
             <div class="overlay">
                 <h3>HP Victus</h3>
                 <p>15-FA1018NS Intel Core</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="hp" data-precio="800">
             <a href="../pages/producto3.html"><img src="../img/producto-3.webp" alt="producto 3"></a>
             <div class="overlay">
                 <h3>HP Victus</h3>
                 <p>16-R0007NS Intel Core</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="asus" data-precio="699">
             <a href="../pages/producto5.html"><img src="../img/producto-5.webp" alt="producto 5"></a>
             <div class="overlay">
                 <h3>Asus TUF</h3>
                 <p>Gaming A16 TUF607PI</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="msi" data-precio="999">
             <a href="../pages/producto7.html"><img src="../img/producto-7.webp" alt="producto 7"></a>
             <div class="overlay">
                 <h3>MSI Katana</h3>
                 <p>15 i7 RTX 4060 8GB</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="hp" data-precio="1200">
             <a href="../pages/Producto2.html"><img src="../img/producto-2.webp" alt="producto 2"></a>
             <div class="overlay">
                 <h3>HP Victus</h3>
                 <p>16-R1025NS Intel Core</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="hp" data-precio="1300">
             <a href="../pages/producto4.html"><img src="../img/producto-4.webp" alt="producto 4"></a>
             <div class="overlay">
                 <h3>HP Victus</h3>
                 <p>15-FA1018NS Intel Core</p>
             </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item" data-marca="asus" data-precio="1500">
             <a href="../pages/producto6.html"><img src="../img/producto-6.webp" alt="producto 6"></a>
             <div class="overlay">
                 <h3>Asus TUF</h3>
                 <p>F15 TUF507ZC4-HN231</p>
             </div>
         </div>
-
-
-
     </main>
 
     <section>
@@ -220,6 +239,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
 
 </body>
 
